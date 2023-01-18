@@ -114,3 +114,4 @@ if __name__ == "__main__":
     
     print(CLAPPANS["DB1C"].number,CLAPPANS["DB1C"].branch)
     print(*PUMP_FROM_ONE)
+    print(*PUMP_FROM_ONE)

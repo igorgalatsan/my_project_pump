@@ -107,11 +107,12 @@ PUMP_IN_TWO = {72,81}
 PUMP_FROM_TWO ={71,84}
 
 if __name__ == "__main__":
+    question = "DB1C"
     clapan = D_TIMES["FP"]
     clapan_1 =D_TIMES["DT"]
     print(D_TIMES["FP"])
     print(D_TIMES["DT"])
     
-    print(CLAPPANS["DB1C"].number,CLAPPANS["DB1C"].branch)
+    print(CLAPPANS[question].number,CLAPPANS[question].branch)
     print(*PUMP_FROM_ONE)
     print(*PUMP_FROM_ONE)
